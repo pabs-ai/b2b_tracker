@@ -7,7 +7,7 @@ import './index.css'
 
 export default function App() {
   return (
-    <BrowserRouter basename="/b2b-tracker">
+    <BrowserRouter basename="/b2b_tracker">
       <Routes>
         <Route path="/" element={<Navigate to="/login" />} />
         <Route path="/login" element={<InstructorLogin />} />
